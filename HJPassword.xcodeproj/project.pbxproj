@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1816FD691E1E1389001F6F49 /* HJPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FD681E1E1389001F6F49 /* HJPasswordView.m */; };
+		1816FD6C1E1E1450001F6F49 /* HJPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FD6B1E1E1450001F6F49 /* HJPopViewController.m */; };
+		1816FD6F1E1E1497001F6F49 /* HJPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FD6E1E1E1497001F6F49 /* HJPopView.m */; };
 		1865B93C1E1DE14400EE2D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1865B93B1E1DE14400EE2D8F /* main.m */; };
 		1865B93F1E1DE14400EE2D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1865B93E1E1DE14400EE2D8F /* AppDelegate.m */; };
 		1865B9421E1DE14400EE2D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1865B9411E1DE14400EE2D8F /* ViewController.m */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1816FD661E1E1389001F6F49 /* APIConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConst.h; sourceTree = "<group>"; };
+		1816FD671E1E1389001F6F49 /* HJPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPasswordView.h; sourceTree = "<group>"; };
+		1816FD681E1E1389001F6F49 /* HJPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPasswordView.m; sourceTree = "<group>"; };
+		1816FD6A1E1E1450001F6F49 /* HJPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPopViewController.h; sourceTree = "<group>"; };
+		1816FD6B1E1E1450001F6F49 /* HJPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPopViewController.m; sourceTree = "<group>"; };
+		1816FD6D1E1E1497001F6F49 /* HJPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPopView.h; sourceTree = "<group>"; };
+		1816FD6E1E1E1497001F6F49 /* HJPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPopView.m; sourceTree = "<group>"; };
 		1865B9371E1DE14400EE2D8F /* HJPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1865B93B1E1DE14400EE2D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1865B93D1E1DE14400EE2D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +88,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1816FD651E1E1389001F6F49 /* HJPassword */ = {
+			isa = PBXGroup;
+			children = (
+				1816FD661E1E1389001F6F49 /* APIConst.h */,
+				1816FD671E1E1389001F6F49 /* HJPasswordView.h */,
+				1816FD681E1E1389001F6F49 /* HJPasswordView.m */,
+				1816FD6D1E1E1497001F6F49 /* HJPopView.h */,
+				1816FD6E1E1E1497001F6F49 /* HJPopView.m */,
+			);
+			path = HJPassword;
+			sourceTree = "<group>";
+		};
 		1865B92E1E1DE14400EE2D8F = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +123,13 @@
 		1865B9391E1DE14400EE2D8F /* HJPassword */ = {
 			isa = PBXGroup;
 			children = (
+				1816FD651E1E1389001F6F49 /* HJPassword */,
 				1865B93D1E1DE14400EE2D8F /* AppDelegate.h */,
 				1865B93E1E1DE14400EE2D8F /* AppDelegate.m */,
 				1865B9401E1DE14400EE2D8F /* ViewController.h */,
 				1865B9411E1DE14400EE2D8F /* ViewController.m */,
+				1816FD6A1E1E1450001F6F49 /* HJPopViewController.h */,
+				1816FD6B1E1E1450001F6F49 /* HJPopViewController.m */,
 				1865B9431E1DE14400EE2D8F /* Main.storyboard */,
 				1865B9461E1DE14400EE2D8F /* Assets.xcassets */,
 				1865B9481E1DE14400EE2D8F /* LaunchScreen.storyboard */,
@@ -274,8 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1865B9421E1DE14400EE2D8F /* ViewController.m in Sources */,
+				1816FD6C1E1E1450001F6F49 /* HJPopViewController.m in Sources */,
 				1865B93F1E1DE14400EE2D8F /* AppDelegate.m in Sources */,
 				1865B93C1E1DE14400EE2D8F /* main.m in Sources */,
+				1816FD6F1E1E1497001F6F49 /* HJPopView.m in Sources */,
+				1816FD691E1E1389001F6F49 /* HJPasswordView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +535,7 @@
 				1865B9661E1DE14400EE2D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1865B9671E1DE14400EE2D8F /* Build configuration list for PBXNativeTarget "HJPasswordTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				1865B9691E1DE14400EE2D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1865B96A1E1DE14400EE2D8F /* Build configuration list for PBXNativeTarget "HJPasswordUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				1865B96C1E1DE14400EE2D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
