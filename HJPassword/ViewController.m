@@ -25,6 +25,7 @@
     self.password.elementCount = 4;
     [self.password setNoSecure];
     self.password.elementColor=UIColorFromRGB(0xd5d5d5);
+    self.password.selectColor = UIColorFromRGB(0x000000);
     self.password.elementMargin = 10;
     [self.view addSubview:self.password];
     __block ViewController *weakself=self;

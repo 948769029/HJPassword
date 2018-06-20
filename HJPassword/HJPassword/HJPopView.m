@@ -43,6 +43,7 @@
         pwdView.isEqualWidth = YES;
         [pwdView setNoSecure];
         pwdView.elementColor = [UIColor blackColor];
+        pwdView.selectColor = [UIColor redColor];
         pwdView.elementMargin = 30;
         [bgView addSubview:pwdView];
         __block HJPopView *weakself=self;

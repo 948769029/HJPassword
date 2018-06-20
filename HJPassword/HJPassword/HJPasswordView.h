@@ -26,6 +26,10 @@
  */
 @property (nonatomic, strong) UIColor *elementColor;
 /**
+ *  密码框选中颜色
+ */
+@property (nonatomic, strong) UIColor *selectColor;
+/**
  *  密码框间距
  */
 @property (nonatomic, assign) NSUInteger elementMargin;

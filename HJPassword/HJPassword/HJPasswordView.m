@@ -71,6 +71,10 @@
     }
 }
 
+- (void)setSelectColor:(UIColor *)selectColor
+{
+    _selectColor = selectColor;
+}
 
 - (void)setElementMargin:(NSUInteger)elementMargin {
     _elementMargin = elementMargin;
@@ -101,8 +105,10 @@
         if (i < password.length) {
             NSString *pwd = [password substringWithRange:NSMakeRange(i, 1)];
             pwdTextField.text = pwd;
+            pwdTextField.layer.borderColor = self.selectColor.CGColor;
         } else {
             pwdTextField.text = nil;
+            pwdTextField.layer.borderColor = self.elementColor.CGColor;
         }
         
     }
